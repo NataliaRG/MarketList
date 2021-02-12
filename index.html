@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Esta página te mostrará fotos de alimentos" /> <!-- Esto se ve debajo del título de la página en el buscador -->
+        <meta name="robots" content="index,follow" />
+        <title>Mi lista de mercado</title>
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css">
+        </head>
+    <body>
+        <header>
+             <figure>
+                <img src="./pics/logo-small.jpg" alt="Imagen de una receta de salmón" class="logo">
+            </figure>
+            <nav>
+                <ul class="main-nav">
+                    <li class="main-nav__item"><a href="/mercado/">Mercado</a></li>
+                    <li class="main-nav__item"><a href="/lista/">Lista</a></li>
+                    <li class="main-nav__item"><a href="/receta/">Receta</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <main>
+            <section>
+                <figure>
+                    <img src="./pics/market-small.jpg" alt="Es una imagen de un mercado">
+                    <figcaption>Imagen de la plaza de mercado donde se realizarán las compras</figcaption>
+                </figure>
+            </section>
+            <section>
+                <span>¿En qué país vives?</span>
+            <input list="paises">
+            <datalist id="paises">
+                <option value="México"></option>
+                <option value="Honduras"></option>
+                <option value="Panamá"></option>
+                <option value="Brasil"></option>
+                <option value="Colombia"></option>
+                <option value="Argentina"></option>
+                <option value="Perú"></option>
+                <option value="Chile"></option>
+                <option value="Ecuador"></option>
+                <option value="Guatemala"></option>
+                <option value="Venezuela"></option>
+                <option value="Bolivia"></option>
+                <option value="Nicaragua"></option>
+                <option value="Haití"></option>
+                <option value="República Dominicana"></option>
+                <option value="Cuba"></option>
+                <option value="Paraguay"></option>
+                <option value="El Salvador"></option>
+                <option value="Costa Rica"></option>
+                <option value="Puerto Rico"></option>
+                <option value="Uruguay"></option>
+            </datalist>
+            <form action="">
+                <label for="nombre">
+                    <span>¿Cuál es tu nombre?</span>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required/>
+                </label>
+                <label for="calendario">
+                    <span>¿Cuando vas a hacer mercado?</span>
+                    <input type="datetime-local" id="calendario" name="calendario" />
+                </label>
+                <input type="submit">
+            </form> 
+            </section>
+            <section>
+                <ul>
+                    <h2 class="marketlist">🛒 Lista de mercado</h2>
+                    <p class="recipe">Esta compra es para preparar la receta de Salmón a la Naranja que se puede encontrar <a href="https://www.recetasgratis.net/receta-de-salmon-en-salsa-de-naranja-56831.html" target="_blank">aquí</a></p>
+                    <section>
+                        <video class="video" controls preload="auto">
+                            <source src="./video/salmon.mp4" />
+                        </video>
+                    </section>
+                    <h3 class="food">Despensa</h3>
+                        <ol>
+                            <li>Azúcar 🧊</li>
+                            <figure>
+                                <img class="sugar" src="./pics/sugar-small.jpg" alt="Es una imagen de azúcar">
+                            </figure>
+                            <li>Sal 🧂</li>
+                            <figure>
+                                <img class="salt" src="./pics/salt-small.jpg" alt="Es una imagen de sal">
+                            </figure>
+                            <li>Aceite 🛢️</li>
+                            <figure>
+                                <img class="oil" src="./pics/oil-small.jpg" alt="Es una imagen de aceite">
+                            </figure>
+                        </ol>
+                    <h3 class="food">Frutas</h3>
+                        <ol>
+                            <li>Naranja 🍊</li>
+                            <figure>
+                                <img class="orange" src="./pics/orange-small.jpg" alt="Es una imagen de naranjas">
+                            </figure>
+                            <li>Limón 🍋</li>
+                            <figure>
+                                <img class="lemon" src="./pics/lemons-small.jpg" alt="Es una imagen de limones">
+                            </figure>
+                        </ol>
+                    <h3 class="food">Pescado</h3>
+                        <ul>
+                            <li>Salmón 🍣</li>
+                            <figure>
+                                <img class="salmon" src="./pics/salmon-small.jpg" alt="Es una imagen de un salmón">
+                            </figure>
+                        </ul>
+                    <h3 class="food">Bebidas</h3>
+                        <ul>
+                            <li><a href="https://www.hogarmania.com/cocina/recetas/postres/matcha-latte-verde-leche-33777.html" target="_blank">Té matcha</a> 🍵</li>
+                            <figure>
+                                <img class="tea" src="./pics/matcha-small.jpg" alt="Es una imagen de un té matcha">
+                            </figure>
+                        </ul>
+                </ul> 
+            </section>
+            <section>
+                <article>
+
+                </article>
+            </section>        
+            <ul></ul>
+            <ol></ol>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+/* Comentarios Shift + Alt + A */
+/* Alt + 126 = ~ */
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}  
+
+main 
+{
+    width: 100%;
+    height: 100%;
+    border: 10px solid gray;
+    padding: 20px 35px;
+    font-size: 1.6rem; /*16px */
+}
+
+.main-nav 
+{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.main-nav__item
+{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-nav__item a 
+{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover 
+{
+    color: blue;
+}
+
+.main-nav__item a:active
+{
+    color: red;
+}
+
+.main-nav__item a::after 
+{
+    content: " | "
+}
+
+
+.logo
+{
+    width: 7%;
+    height: 7%;
+}  
+
+.marketlist
+{
+    margin: 30px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    width: 600px;
+    font-size: 1.8rem;
+}
+
+.recipe
+{
+    font-size: 1.8rem;
+    margin: 8px;
+}
+
+.video
+{
+    width: 500px;
+}
+
+.food
+{
+    margin: 20px;
+    font-size: 1.8rem;
+}
+
+.sugar
+{
+    margin: 10px;
+    width: 180px;
+}
+
+.salt
+{
+    margin: 10px;
+    width: 180px;
+    height: 200px;
+}
+
+.oil
+{
+    margin: 10px;
+    width: 200px;
+}
+
+.orange
+{
+    margin: 10px;
+    width: 200px;
+}
+
+.lemon
+{
+    margin: 10px;
+    width: 200px;
+}
+
+.salmon
+{
+    margin: 10px;
+    width: 200px;
+}
+
+.tea
+{
+    margin: 10px;
+    width: 200px;
+}
+
+
+
